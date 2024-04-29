@@ -1,7 +1,9 @@
 ---
-
 import Footer from "../components/Footer.astro"
 import Top from "../components/Top.astro"
+import Navbar from "../components/Navbar.astro"
+
+
 ---
 
 <!DOCTYPE html>
@@ -16,8 +18,12 @@ import Top from "../components/Top.astro"
       referrerpolicy="no-referrer"
     ></script> -->
   </head>
-  <body class="">
+  <body  >
 <Top/>
+<Navbar/>
+
+<slot />
+
 
 
 <Footer/>
